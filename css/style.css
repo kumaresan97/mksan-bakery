@@ -1,0 +1,443 @@
+ .container{
+     width: 100%;
+     margin: 0 auto;
+ } 
+ .home-sec{
+    background-image: url('../images/slidebakery1.jpg');
+    
+    background-position: cover;
+    }
+ .headsec {
+     display: flex;
+     
+ }
+ .leftSide {
+     display: flex;
+     width: 40%;
+     padding: 0 20px;
+ }
+ .leftSide h1{
+     color: white;
+ }
+
+ .headerText {
+     padding-top:35px ;
+     
+     
+        font-size: 25px;
+        color: #f9b000;
+        font-family: Roboto', sans-serif';
+    
+ }
+ 
+ .nav-section {
+     width: 60%;
+     margin-top: 15px;
+ }
+ .nav-section ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+.nav-section ul li {
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.homecontent-sec{
+    text-align: center;
+    line-height: 0.5;
+    color:#fff;
+    padding-bottom: 50px;
+}
+.homecontent-text{
+    font-size: 65px;
+    line-height: 1;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white
+}
+
+.paragraph-sec{
+    font-size: 16px;
+    color: #666666;
+    font-family:'Roboto', sans-serif; 
+    text-align: center;
+}
+.offer-sec{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+.offer-box h3{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Righteous'
+}
+.offer-box{
+   
+    border: 1px solid black;
+    background-color: #333333;;
+text-align: center;
+width: 25%;
+padding: 10px;
+}
+.offersec-text{
+    font-size: 30px;
+    color: white;
+}
+
+.offersec-text-1{
+    font-size: 36px;
+    color: #85a900;
+}
+.offer-box .offersec-img{
+    bottom: 44px;
+    position: relative;
+    left: 25px;
+}
+
+.head1{
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+    color: #f9b000;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top:21px;
+}
+.head2{
+    font-size: 65px;
+    line-height: 1;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: rgb(68,68,68);
+    list-style: 5px;
+}
+
+
+.aboutsec-p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+.aboutbox-sec{
+    display: flex;
+    justify-content: space-evenly;  
+    text-align: center; 
+    padding-top: 10px;
+    margin: 0 50px 0 50px;
+}
+.aboubox-content{
+    margin-top: 50px;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.aboutbox-img{
+    position: relative;
+    right: 95px;
+    bottom: 40px;
+    border-radius: 50%;
+
+}
+.aboutbox-text{
+    font-size: 22px;
+    
+    text-transform: capitalize;
+}
+.about-wraper{
+    
+    position: relative;
+    text-align: center;
+}
+.aboutwrap-content{
+    position: absolute;
+    top: 27px;
+    left: 181px;
+
+}
+.aboutwrap-content h3{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(119,119,119);
+    line-height: 1;
+    text-align: center;
+   
+}
+.aboutwrap-content h2{
+    font-size: 65px;
+    line-height: 1;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+    margin-top: 27px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: rgb(68,68,68);
+}
+.about-img{
+    text-align: center;
+    margin-top: 30px;
+}
+.portofolio-box{
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+.portfolio-img{
+    margin: 10px;
+    text-align: center;
+
+}
+.portfolio-img h3{
+font-size: 18px;
+color: #666666;
+font-family: 'Righteous', cursive; ;
+}
+.portfolio-img h4{
+    font-size: 18px;
+    color: #f9b000;
+}
+.about-img2{
+    position: relative;
+   
+    bottom: 14px;
+}
+.blogsection-content{
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+.blogsec-text{
+    width: 30%;
+}
+.blog-section{
+    margin: 0 30px;
+    text-align: center;
+    
+}
+.testimonial-sec{
+    text-align: center;
+    background-image: url('../images/slidebakery1.jpg');
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.testmonial-text3{
+    font-size: 18px;
+    color:#f9b000;
+    font-weight: bold;
+}
+.testmonial-text4{
+    font-size: 18px;
+    background-color: #f9b000 ;
+    color:#fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    
+    
+}
+.testimonial-text1{
+    font-size: 65px;
+    line-height: 1;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white
+
+}
+.testimonial-text2{
+    font-size: 18px;
+    color: white;
+    padding: 0 150px 0 150px;
+}
+
+
+.contact-section .contactsec-container{
+    background-color: #d9d9d9;
+    margin-top: 50px;
+    height: 150px;
+}
+.contactform-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 35px;
+    
+}
+.message-section{
+    margin-top: 35px;
+    margin-left: 237px;
+}
+.message-section textarea{
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    padding-right: 545px;
+    padding-bottom: 31px;
+    border-bottom: 2px solid #666666;
+}
+.namesection input{
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    
+    padding-bottom: 31px;
+    border-bottom: 2px solid #666666;
+}
+.emailsection input{
+    margin-top: 20px;
+    border: none;
+    outline: 0;
+    padding-bottom: 31px;
+    border-bottom: 2px solid #666666;
+}
+
+.blog-date .month{
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    color:rgb(221,221,221);
+    line-height: 0.5;
+    position: relative;
+    /* bottom: 54px; */
+    bottom: 30px;
+ 
+}
+.blog-date .date{
+    color:rgb(221,221,221);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    /* top: 0px; */
+    bottom: 70px;
+}
+.contactsec-button{
+    text-align: center;
+    margin-top: 50px;
+}
+.contactsec-button input{
+    background-color:#f9b000 ;
+    border-radius: 20px;
+    font-size: 20px;
+    }
+.address-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    background-image: url('../images/contactbg.jpg');
+}
+.addresssec-content{
+    
+    width: 25%;
+}
+.addresssec-map{
+    width: 25%;
+    margin-top: 50px;
+    margin-right: 31px;
+}
+
+.addresssec-footer{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 50px; */
+    margin: 50px 100px 0px 100px;
+    
+}
+.footer-information h3::after{
+    content: "";
+    display: block;
+    background-color: #f9b000;
+    width: 45px;
+    height: 3px;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+.footer-information {
+    
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    width: 25%;
+    padding: 0 28px;
+    text-transform: capitalize;
+    /* margin: 20px; */
+}
+.footer-information h4{margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+   
+
+.footer-information ul{
+    line-height: 1.7;
+    padding-inline-start: 18px;
+}
+.address-content{
+    display: flex;
+}
+.adresssec-head1 h2{
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-weight: bold;
+
+}
+.adresssec-head1 p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #fff;
+}
+.adresssec-head2
+  {
+      font-size: 16px;
+       font-family: 'Poppins', sans-serif;
+       color:#fff;
+  }  
+     .ico-symbol{
+        position: relative;
+    right: 60px;
+    top: 82px;
+    font-size: 31px;
+     }
+.footer-head1{
+    font-size: 14px;
+    position: relative;
+    bottom: 41px;
+    left: 65px;
+    text-transform: uppercase;
+    color: #f9b000;
+    font-family: 'Roboto', sans-serif;
+}
+.ico-footer{
+    position: relative;
+    top: 24px;
+    right: 36px;
+    font-size: 15px;
+    color: #f9b000;
+}
+
+.footer-information1{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    width: 25%;
+    padding: 0 28px;
+}

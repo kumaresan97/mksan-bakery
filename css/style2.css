@@ -1,0 +1,10 @@
+.content{
+    position: absolute;
+    
+    bottom: 124px;
+    /* right: 120px; */
+    left: 163px;
+}
+.carousel-item img{
+    position: relative;
+}
